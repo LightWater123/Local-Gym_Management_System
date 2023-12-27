@@ -1,4 +1,4 @@
 FONT FAMILY
 
 Nexa BOLD
-Inter BOLD
+Sans Serif PLAIN
