@@ -31,9 +31,11 @@ public class HomePage extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(3, 3));
 
+        jPanel1.setBackground(new java.awt.Color(255, 102, 102));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        label3.setFont(new java.awt.Font("Nexa Bold", 0, 24)); // NOI18N
+        label3.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        label3.setForeground(new java.awt.Color(255, 255, 255));
         label3.setText("Log in");
 
         username_TF.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -43,17 +45,21 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
-        label1.setFont(new java.awt.Font("Inter", 1, 18)); // NOI18N
+        label1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        label1.setForeground(new java.awt.Color(255, 255, 255));
         label1.setText("Username:");
 
-        label2.setFont(new java.awt.Font("Inter", 1, 18)); // NOI18N
+        label2.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        label2.setForeground(new java.awt.Color(255, 255, 255));
         label2.setText("Password:");
 
         password_TF.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         password_TF.setEchoChar('*');
         password_TF.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
 
-        LoginBtn.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        LoginBtn.setBackground(new java.awt.Color(255, 137, 137));
+        LoginBtn.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        LoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         LoginBtn.setLabel("Log In");
         LoginBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,14 +67,22 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
-        label4.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        label4.setFont(new java.awt.Font("SansSerif", 2, 14)); // NOI18N
         label4.setText("Not a member yet?");
 
-        sign_up.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        sign_up.setBackground(new java.awt.Color(255, 137, 137));
+        sign_up.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        sign_up.setForeground(new java.awt.Color(255, 255, 255));
         sign_up.setLabel("Sign up");
+        sign_up.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sign_upActionPerformed(evt);
+            }
+        });
 
-        jLabel1.setFont(new java.awt.Font("Nexa Bold", 0, 36)); // NOI18N
-        jLabel1.setText("Basta Gym");
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Gym or Gin");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -90,25 +104,24 @@ public class HomePage extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
+                        .addGap(27, 27, 27)
                         .addComponent(sign_up, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(167, 167, 167)
+                        .addGap(106, 106, 106)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(165, 165, 165)
                         .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(65, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(95, 95, 95))
+                .addContainerGap(90, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
+                .addGap(36, 36, 36)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(4, 4, 4)
+                .addGap(18, 18, 18)
                 .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(username_TF, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -118,28 +131,22 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(password_TF, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addComponent(LoginBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
                 .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(sign_up, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(69, Short.MAX_VALUE))
+                .addGap(21, 21, 21))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(1367, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(964, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -152,6 +159,12 @@ public class HomePage extends javax.swing.JFrame {
     private void username_TFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_username_TFActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_username_TFActionPerformed
+
+    private void sign_upActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sign_upActionPerformed
+        Registration reg = new Registration();
+        reg.show();
+        dispose();
+    }//GEN-LAST:event_sign_upActionPerformed
 
     /**
      * @param args the command line arguments
