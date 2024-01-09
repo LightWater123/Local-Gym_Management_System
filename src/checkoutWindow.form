@@ -127,7 +127,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
-                      <Component id="next_Btn" min="-2" max="-2" attributes="0"/>
+                      <Component id="profile_Btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -138,7 +138,7 @@
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       <Component id="label2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="65" max="32767" attributes="0"/>
-                      <Component id="next_Btn" min="-2" max="-2" attributes="0"/>
+                      <Component id="profile_Btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -156,7 +156,7 @@
                 <Property name="text" type="java.lang.String" value="Checkout your profile"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="next_Btn">
+            <Component class="java.awt.Button" name="profile_Btn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -173,7 +173,7 @@
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Next"/>
               </AccessibilityProperties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="next_BtnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="profile_BtnActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>

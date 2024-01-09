@@ -119,8 +119,8 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="76" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="button1" min="-2" pref="124" max="-2" attributes="0"/>
-                          <Component id="button4" min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="viewProg_PPL" min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="enroll_PPL" min="-2" pref="124" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                   </Group>
@@ -136,9 +136,9 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="label4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="button1" min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="viewProg_PPL" min="-2" pref="38" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                      <Component id="button4" min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="enroll_PPL" min="-2" pref="38" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -178,7 +178,7 @@
                 <Property name="text" type="java.lang.String" value="Legs"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="button1">
+            <Component class="java.awt.Button" name="viewProg_PPL">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -192,10 +192,10 @@
                 <Property name="label" type="java.lang.String" value="View Program"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewProg_PPLActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="button4">
+            <Component class="java.awt.Button" name="enroll_PPL">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -209,7 +209,7 @@
                 <Property name="label" type="java.lang.String" value="Enroll"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button4ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enroll_PPLActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -233,9 +233,9 @@
                           <Component id="label5" min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="label7" min="-2" max="-2" attributes="0"/>
-                              <Component id="button2" min="-2" pref="111" max="-2" attributes="0"/>
+                              <Component id="enroll_ULS" min="-2" pref="111" max="-2" attributes="0"/>
                               <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="button5" min="-2" pref="111" max="-2" attributes="0"/>
+                              <Component id="viewProg_ULS" min="-2" pref="111" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="101" max="32767" attributes="0"/>
@@ -252,9 +252,9 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="label7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="138" max="32767" attributes="0"/>
-                      <Component id="button5" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="viewProg_ULS" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Component id="button2" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="enroll_ULS" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -294,7 +294,7 @@
                 <Property name="text" type="java.lang.String" value="Split"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="button2">
+            <Component class="java.awt.Button" name="enroll_ULS">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -308,10 +308,10 @@
                 <Property name="label" type="java.lang.String" value="Enroll"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enroll_ULSActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="button5">
+            <Component class="java.awt.Button" name="viewProg_ULS">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -325,7 +325,7 @@
                 <Property name="label" type="java.lang.String" value="View Program"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button5ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewProg_ULSActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -343,11 +343,11 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button3" min="-2" pref="119" max="-2" attributes="0"/>
+                          <Component id="enroll_FBS" min="-2" pref="119" max="-2" attributes="0"/>
                           <Component id="label8" min="-2" max="-2" attributes="0"/>
                           <Component id="label10" min="-2" max="-2" attributes="0"/>
                           <Component id="label9" min="-2" max="-2" attributes="0"/>
-                          <Component id="button6" min="-2" pref="119" max="-2" attributes="0"/>
+                          <Component id="viewProg_FBS" min="-2" pref="119" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="74" max="32767" attributes="0"/>
                   </Group>
@@ -363,9 +363,9 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="label10" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="130" max="32767" attributes="0"/>
-                      <Component id="button6" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="viewProg_FBS" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                      <Component id="button3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="enroll_FBS" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -405,7 +405,7 @@
                 <Property name="text" type="java.lang.String" value="Split"/>
               </Properties>
             </Component>
-            <Component class="java.awt.Button" name="button3">
+            <Component class="java.awt.Button" name="enroll_FBS">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -419,10 +419,10 @@
                 <Property name="label" type="java.lang.String" value="Enroll"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button3ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enroll_FBSActionPerformed"/>
               </Events>
             </Component>
-            <Component class="java.awt.Button" name="button6">
+            <Component class="java.awt.Button" name="viewProg_FBS">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="ff" type="rgb"/>
@@ -435,6 +435,9 @@
                 </Property>
                 <Property name="label" type="java.lang.String" value="View Program"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewProg_FBSActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

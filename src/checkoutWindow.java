@@ -30,7 +30,7 @@ public class checkoutWindow extends javax.swing.JFrame {
         label1 = new java.awt.Label();
         panel3 = new java.awt.Panel();
         label2 = new java.awt.Label();
-        next_Btn = new java.awt.Button();
+        profile_Btn = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,13 +66,13 @@ public class checkoutWindow extends javax.swing.JFrame {
         label2.setForeground(new java.awt.Color(255, 255, 255));
         label2.setText("Checkout your profile");
 
-        next_Btn.setBackground(new java.awt.Color(255, 102, 102));
-        next_Btn.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
-        next_Btn.setForeground(new java.awt.Color(255, 255, 255));
-        next_Btn.setLabel("Profile");
-        next_Btn.addActionListener(new java.awt.event.ActionListener() {
+        profile_Btn.setBackground(new java.awt.Color(255, 102, 102));
+        profile_Btn.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        profile_Btn.setForeground(new java.awt.Color(255, 255, 255));
+        profile_Btn.setLabel("Profile");
+        profile_Btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                next_BtnActionPerformed(evt);
+                profile_BtnActionPerformed(evt);
             }
         });
 
@@ -86,7 +86,7 @@ public class checkoutWindow extends javax.swing.JFrame {
                 .addGap(51, 51, 51))
             .addGroup(panel3Layout.createSequentialGroup()
                 .addGap(123, 123, 123)
-                .addComponent(next_Btn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(profile_Btn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panel3Layout.setVerticalGroup(
@@ -95,11 +95,11 @@ public class checkoutWindow extends javax.swing.JFrame {
                 .addGap(29, 29, 29)
                 .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
-                .addComponent(next_Btn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(profile_Btn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30))
         );
 
-        next_Btn.getAccessibleContext().setAccessibleName("Next");
+        profile_Btn.getAccessibleContext().setAccessibleName("Next");
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -136,11 +136,11 @@ public class checkoutWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void next_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_next_BtnActionPerformed
+    private void profile_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profile_BtnActionPerformed
         user_Display ud = new user_Display();
         ud.show();
         dispose();
-    }//GEN-LAST:event_next_BtnActionPerformed
+    }//GEN-LAST:event_profile_BtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -180,9 +180,9 @@ public class checkoutWindow extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private java.awt.Label label1;
     private java.awt.Label label2;
-    private java.awt.Button next_Btn;
     private java.awt.Panel panel1;
     private java.awt.Panel panel2;
     private java.awt.Panel panel3;
+    private java.awt.Button profile_Btn;
     // End of variables declaration//GEN-END:variables
 }

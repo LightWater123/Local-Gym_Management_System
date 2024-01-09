@@ -56,6 +56,11 @@ public class HomePage extends javax.swing.JFrame {
         password_TF.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         password_TF.setEchoChar('*');
         password_TF.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        password_TF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                password_TFActionPerformed(evt);
+            }
+        });
 
         LoginBtn.setBackground(new java.awt.Color(255, 137, 137));
         LoginBtn.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
@@ -158,7 +163,7 @@ public class HomePage extends javax.swing.JFrame {
     }//GEN-LAST:event_LoginBtnActionPerformed
 
     private void username_TFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_username_TFActionPerformed
-        // TODO add your handling code here:
+        String username = username_TF.getText();
     }//GEN-LAST:event_username_TFActionPerformed
 
     private void sign_upActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sign_upActionPerformed
@@ -166,6 +171,10 @@ public class HomePage extends javax.swing.JFrame {
         reg.show();
         dispose();
     }//GEN-LAST:event_sign_upActionPerformed
+
+    private void password_TFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password_TFActionPerformed
+        String password = password_TF.getText();
+    }//GEN-LAST:event_password_TFActionPerformed
 
     /**
      * @param args the command line arguments

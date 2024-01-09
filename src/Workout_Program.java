@@ -31,20 +31,20 @@ public class Workout_Program extends javax.swing.JFrame {
         label2 = new java.awt.Label();
         label3 = new java.awt.Label();
         label4 = new java.awt.Label();
-        button1 = new java.awt.Button();
-        button4 = new java.awt.Button();
+        viewProg_PPL = new java.awt.Button();
+        enroll_PPL = new java.awt.Button();
         panel2 = new java.awt.Panel();
         label5 = new java.awt.Label();
         label6 = new java.awt.Label();
         label7 = new java.awt.Label();
-        button2 = new java.awt.Button();
-        button5 = new java.awt.Button();
+        enroll_ULS = new java.awt.Button();
+        viewProg_ULS = new java.awt.Button();
         panel3 = new java.awt.Panel();
         label8 = new java.awt.Label();
         label9 = new java.awt.Label();
         label10 = new java.awt.Label();
-        button3 = new java.awt.Button();
-        button6 = new java.awt.Button();
+        enroll_FBS = new java.awt.Button();
+        viewProg_FBS = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,23 +69,23 @@ public class Workout_Program extends javax.swing.JFrame {
         label4.setForeground(new java.awt.Color(255, 255, 255));
         label4.setText("Legs");
 
-        button1.setBackground(new java.awt.Color(255, 102, 102));
-        button1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button1.setForeground(new java.awt.Color(255, 255, 255));
-        button1.setLabel("View Program");
-        button1.addActionListener(new java.awt.event.ActionListener() {
+        viewProg_PPL.setBackground(new java.awt.Color(255, 102, 102));
+        viewProg_PPL.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        viewProg_PPL.setForeground(new java.awt.Color(255, 255, 255));
+        viewProg_PPL.setLabel("View Program");
+        viewProg_PPL.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                button1ActionPerformed(evt);
+                viewProg_PPLActionPerformed(evt);
             }
         });
 
-        button4.setBackground(new java.awt.Color(255, 102, 102));
-        button4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button4.setForeground(new java.awt.Color(255, 255, 255));
-        button4.setLabel("Enroll");
-        button4.addActionListener(new java.awt.event.ActionListener() {
+        enroll_PPL.setBackground(new java.awt.Color(255, 102, 102));
+        enroll_PPL.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        enroll_PPL.setForeground(new java.awt.Color(255, 255, 255));
+        enroll_PPL.setLabel("Enroll");
+        enroll_PPL.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                button4ActionPerformed(evt);
+                enroll_PPLActionPerformed(evt);
             }
         });
 
@@ -103,8 +103,8 @@ public class Workout_Program extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                 .addGap(0, 76, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(button1, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(button4, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(viewProg_PPL, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(enroll_PPL, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(73, 73, 73))
         );
         panel1Layout.setVerticalGroup(
@@ -117,9 +117,9 @@ public class Workout_Program extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(button1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(viewProg_PPL, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(25, 25, 25)
-                .addComponent(button4, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(enroll_PPL, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
 
@@ -138,23 +138,23 @@ public class Workout_Program extends javax.swing.JFrame {
         label7.setForeground(new java.awt.Color(255, 255, 255));
         label7.setText("Split");
 
-        button2.setBackground(new java.awt.Color(255, 102, 102));
-        button2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button2.setForeground(new java.awt.Color(255, 255, 255));
-        button2.setLabel("Enroll");
-        button2.addActionListener(new java.awt.event.ActionListener() {
+        enroll_ULS.setBackground(new java.awt.Color(255, 102, 102));
+        enroll_ULS.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        enroll_ULS.setForeground(new java.awt.Color(255, 255, 255));
+        enroll_ULS.setLabel("Enroll");
+        enroll_ULS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                button2ActionPerformed(evt);
+                enroll_ULSActionPerformed(evt);
             }
         });
 
-        button5.setBackground(new java.awt.Color(255, 102, 102));
-        button5.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button5.setForeground(new java.awt.Color(255, 255, 255));
-        button5.setLabel("View Program");
-        button5.addActionListener(new java.awt.event.ActionListener() {
+        viewProg_ULS.setBackground(new java.awt.Color(255, 102, 102));
+        viewProg_ULS.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        viewProg_ULS.setForeground(new java.awt.Color(255, 255, 255));
+        viewProg_ULS.setLabel("View Program");
+        viewProg_ULS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                button5ActionPerformed(evt);
+                viewProg_ULSActionPerformed(evt);
             }
         });
 
@@ -168,9 +168,9 @@ public class Workout_Program extends javax.swing.JFrame {
                     .addComponent(label5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(button2, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(enroll_ULS, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(button5, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(viewProg_ULS, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(101, Short.MAX_VALUE))
         );
         panel2Layout.setVerticalGroup(
@@ -183,9 +183,9 @@ public class Workout_Program extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 138, Short.MAX_VALUE)
-                .addComponent(button5, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(viewProg_ULS, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(21, 21, 21)
-                .addComponent(button2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(enroll_ULS, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27))
         );
 
@@ -203,20 +203,25 @@ public class Workout_Program extends javax.swing.JFrame {
         label10.setForeground(new java.awt.Color(255, 255, 255));
         label10.setText("Split");
 
-        button3.setBackground(new java.awt.Color(255, 102, 102));
-        button3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button3.setForeground(new java.awt.Color(255, 255, 255));
-        button3.setLabel("Enroll");
-        button3.addActionListener(new java.awt.event.ActionListener() {
+        enroll_FBS.setBackground(new java.awt.Color(255, 102, 102));
+        enroll_FBS.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        enroll_FBS.setForeground(new java.awt.Color(255, 255, 255));
+        enroll_FBS.setLabel("Enroll");
+        enroll_FBS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                button3ActionPerformed(evt);
+                enroll_FBSActionPerformed(evt);
             }
         });
 
-        button6.setBackground(new java.awt.Color(255, 102, 102));
-        button6.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        button6.setForeground(new java.awt.Color(255, 255, 255));
-        button6.setLabel("View Program");
+        viewProg_FBS.setBackground(new java.awt.Color(255, 102, 102));
+        viewProg_FBS.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        viewProg_FBS.setForeground(new java.awt.Color(255, 255, 255));
+        viewProg_FBS.setLabel("View Program");
+        viewProg_FBS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                viewProg_FBSActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel3Layout = new javax.swing.GroupLayout(panel3);
         panel3.setLayout(panel3Layout);
@@ -225,11 +230,11 @@ public class Workout_Program extends javax.swing.JFrame {
             .addGroup(panel3Layout.createSequentialGroup()
                 .addGap(92, 92, 92)
                 .addGroup(panel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(button3, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(enroll_FBS, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(button6, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(viewProg_FBS, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(74, Short.MAX_VALUE))
         );
         panel3Layout.setVerticalGroup(
@@ -242,9 +247,9 @@ public class Workout_Program extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
-                .addComponent(button6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(viewProg_FBS, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(button3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(enroll_FBS, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
 
@@ -296,35 +301,41 @@ public class Workout_Program extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void button4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button4ActionPerformed
+    private void enroll_PPLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enroll_PPLActionPerformed
         Payment PY = new Payment();
         PY.show();
         dispose();
-    }//GEN-LAST:event_button4ActionPerformed
+    }//GEN-LAST:event_enroll_PPLActionPerformed
 
-    private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
+    private void enroll_ULSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enroll_ULSActionPerformed
         Payment PY = new Payment();
         PY.show();
         dispose();
-    }//GEN-LAST:event_button2ActionPerformed
+    }//GEN-LAST:event_enroll_ULSActionPerformed
 
-    private void button3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button3ActionPerformed
+    private void enroll_FBSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enroll_FBSActionPerformed
         Payment PY = new Payment();
         PY.show();
         dispose();
-    }//GEN-LAST:event_button3ActionPerformed
+    }//GEN-LAST:event_enroll_FBSActionPerformed
 
-    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
+    private void viewProg_PPLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewProg_PPLActionPerformed
         PPL ppl = new PPL();
         ppl.show();
         dispose();
-    }//GEN-LAST:event_button1ActionPerformed
+    }//GEN-LAST:event_viewProg_PPLActionPerformed
 
-    private void button5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button5ActionPerformed
+    private void viewProg_ULSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewProg_ULSActionPerformed
         upper_lower ul = new upper_lower();
         ul.show();
         dispose();
-    }//GEN-LAST:event_button5ActionPerformed
+    }//GEN-LAST:event_viewProg_ULSActionPerformed
+
+    private void viewProg_FBSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewProg_FBSActionPerformed
+        full_body fb = new full_body();
+        fb.show();
+        dispose();
+    }//GEN-LAST:event_viewProg_FBSActionPerformed
 
     /**
      * @param args the command line arguments
@@ -362,12 +373,9 @@ public class Workout_Program extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private java.awt.Button button1;
-    private java.awt.Button button2;
-    private java.awt.Button button3;
-    private java.awt.Button button4;
-    private java.awt.Button button5;
-    private java.awt.Button button6;
+    private java.awt.Button enroll_FBS;
+    private java.awt.Button enroll_PPL;
+    private java.awt.Button enroll_ULS;
     private java.awt.Label label1;
     private java.awt.Label label10;
     private java.awt.Label label2;
@@ -382,5 +390,8 @@ public class Workout_Program extends javax.swing.JFrame {
     private java.awt.Panel panel2;
     private java.awt.Panel panel3;
     private java.awt.Panel panel4;
+    private java.awt.Button viewProg_FBS;
+    private java.awt.Button viewProg_PPL;
+    private java.awt.Button viewProg_ULS;
     // End of variables declaration//GEN-END:variables
 }
