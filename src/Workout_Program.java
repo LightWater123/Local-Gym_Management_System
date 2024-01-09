@@ -73,6 +73,11 @@ public class Workout_Program extends javax.swing.JFrame {
         button1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         button1.setForeground(new java.awt.Color(255, 255, 255));
         button1.setLabel("View Program");
+        button1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button1ActionPerformed(evt);
+            }
+        });
 
         button4.setBackground(new java.awt.Color(255, 102, 102));
         button4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
@@ -147,6 +152,11 @@ public class Workout_Program extends javax.swing.JFrame {
         button5.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         button5.setForeground(new java.awt.Color(255, 255, 255));
         button5.setLabel("View Program");
+        button5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
         panel2.setLayout(panel2Layout);
@@ -303,6 +313,18 @@ public class Workout_Program extends javax.swing.JFrame {
         PY.show();
         dispose();
     }//GEN-LAST:event_button3ActionPerformed
+
+    private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
+        PPL ppl = new PPL();
+        ppl.show();
+        dispose();
+    }//GEN-LAST:event_button1ActionPerformed
+
+    private void button5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button5ActionPerformed
+        upper_lower ul = new upper_lower();
+        ul.show();
+        dispose();
+    }//GEN-LAST:event_button5ActionPerformed
 
     /**
      * @param args the command line arguments

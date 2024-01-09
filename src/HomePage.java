@@ -68,6 +68,7 @@ public class HomePage extends javax.swing.JFrame {
         });
 
         label4.setFont(new java.awt.Font("SansSerif", 2, 14)); // NOI18N
+        label4.setForeground(new java.awt.Color(255, 255, 255));
         label4.setText("Not a member yet?");
 
         sign_up.setBackground(new java.awt.Color(255, 137, 137));
@@ -131,7 +132,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(password_TF, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addComponent(LoginBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(sign_up, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
