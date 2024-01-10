@@ -29,6 +29,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Gym or Gin Fitness");
         setLocation(new java.awt.Point(3, 3));
 
         jPanel1.setBackground(new java.awt.Color(255, 102, 102));

@@ -155,7 +155,7 @@ public class AD_editMemb extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 452, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(168, 168, 168)
+                        .addGap(174, 174, 174)
                         .addComponent(jLabel1)))
                 .addContainerGap(41, Short.MAX_VALUE))
         );
