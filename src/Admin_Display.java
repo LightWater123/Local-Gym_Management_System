@@ -145,6 +145,7 @@ public class Admin_Display extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void edit_ProgramActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edit_ProgramActionPerformed

@@ -320,8 +320,6 @@ public class full_body extends javax.swing.JFrame {
                 .addGap(67, 67, 67))
         );
 
-        label1.getAccessibleContext().setAccessibleName("Full Body Split");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -334,6 +332,7 @@ public class full_body extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void back_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_back_BtnActionPerformed

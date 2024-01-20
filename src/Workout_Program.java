@@ -299,6 +299,7 @@ public class Workout_Program extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void enroll_PPLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enroll_PPLActionPerformed

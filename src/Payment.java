@@ -189,6 +189,7 @@ public class Payment extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void CheckOut_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CheckOut_BtnActionPerformed

@@ -134,6 +134,7 @@ public class checkoutWindow extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void profile_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profile_BtnActionPerformed
